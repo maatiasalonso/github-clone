@@ -4,7 +4,7 @@
         <div class="flex items-center text-xl ml-2">
             <a href="#" class="text-blue-600 hover:underline">author</a>
             <span class="ml-1">/</span>
-            <a href="#" class="text-blue-600 hover:underline font-semibold ml-1">github_test</a>
+            <a href="#" class="text-blue-600 hover:underline font-semibold ml-1">github_tailwind</a>
         </div>
     </div>
     <div class="flex space-x-2 mt-4 lg:mt-0">

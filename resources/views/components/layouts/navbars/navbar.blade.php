@@ -9,18 +9,18 @@
 
                 <x-form.input
                     type='text'
-                    class='rounded-md bg-neutral-900 placeholder:text-gray-400 placeholder:text-sm w-64 px-3 py-0.5'
+                    class='rounded-md bg-neutral-900 placeholder:text-gray-400 placeholder:text-sm w-[17rem] px-3 py-0.5'
                     placeholder='Search or jump to...'
                 />
 
-                <div class="absolute top-0 right-0 flex items-center h-full">
-                    <div class="border border-gray-600 rounded text-xs text-gray-400 px-2 mr-2">/</div>
+                <div class="absolute top-0 right-0 flex items-center">
+                    <div class="border border-gray-600 rounded text-xs text-gray-400 py-0.5 px-2 mr-1 mt-1"><i>/</i></div>
                 </div>
             </div>
 
             <ul class="hidden lg:flex items-center font-semibold space-x-4 font-sans">
                 <li>
-                    <a href="/pulls" class="hover:text-gray-400">Pull Request</a>
+                    <a href="/pulls" class="hover:text-gray-400">Pull request</a>
                 </li>
                 <li>
                     <a href='/issues' class='hover:text-gray-400'>Issues</a>
