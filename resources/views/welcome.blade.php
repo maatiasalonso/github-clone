@@ -4,9 +4,9 @@
 
     <x-layouts.repo.navbar/>
 
-    <div class="container container-xl mx-auto mb-6">
-        <div class="flex ml-9 mt-5 space-x-5">
-            <div class="file-explorer-container">
+    <div class="container mx-auto mb-6">
+        <div class="grid grid-cols-12 mt-5 space-x-5 place-content-center">
+            <div class="col-span-7 col-start-2 file-explorer-container">
 
                 <x-layouts.repo.branch.navbar/>
 
@@ -18,7 +18,7 @@
 
             </div>
 
-            <div class="sidebar w-full lg:w-1/4">
+            <div class="col-span-3 sidebar">
 
                 <x-layouts.repo.branch.about/>
 
@@ -26,7 +26,7 @@
 
                 <x-layouts.repo.branch.used-by/>
 
-                <x-layouts.repo.branch.contributors/>
+                <x-layouts.repo.branch.package/>
 
                 <x-layouts.repo.branch.languages/>
 
